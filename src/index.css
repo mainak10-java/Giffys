@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* css background-image generated using https://10015.io/tools/css-background-pattern-generator */
+.background {
+  background-image: linear-gradient(to right, rgb(255, 228, 230), rgb(204, 251, 241));
+  background-position: 0 0, 18px 18px;
+  background-color: #b1d2ff;
+}
+
+.background1 {
+   background-image: linear-gradient(to right, rgb(153, 246, 228), rgb(217, 249, 157));
+   background-position: 0 0, 18px 18px;
+   background-color: #b1d2ff;
+ }
+
+ .background2 {
+   background-image: linear-gradient(to right, rgb(165, 243, 252), rgb(34, 211, 238));
+   background-position: 0 0, 18px 18px;
+   background-color: #b1d2ff;
+ }
+
+
+/* css loader generated using https://10015.io/tools/css-loader-generator */
+.spinner {
+   margin: 40px;
+   width: 11.2px;
+   height: 11.2px;
+   animation: spinner-z355kx 1s infinite linear;
+   border-radius: 11.2px;
+   box-shadow: 28px 0px 0 0 #fff, 17.4px 21.8px 0 0 #fff, -6.2px 27.2px 0 0 #fff, -25.2px 12px 0 0 #fff, -25.2px -12px 0 0 #fff, -6.2px -27.2px 0 0 #fff, 17.4px -21.8px 0 0 #fff;
+}
+
+@keyframes spinner-z355kx {
+   to {
+      transform: rotate(360deg);
+   }
+}
